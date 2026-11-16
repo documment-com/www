@@ -1,0 +1,3 @@
+# Raw screenshots contain personal details; the site uses redacted copies in images/
+Screenshot*.png
+.DS_Store
