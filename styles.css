@@ -172,24 +172,6 @@ section { padding: 88px 0; }
 .phone-row img { width: 100%; max-width: 300px; margin: 0 auto; }
 .phone-row figcaption { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 18px; }
 
-.photo-band {
-  padding: 0;
-  min-height: 420px;
-  background: url("images/wing.webp") center / cover no-repeat;
-  display: flex;
-  align-items: flex-end;
-}
-.photo-band-inner {
-  width: 100%;
-  padding: 120px 24px 40px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent);
-}
-.photo-band p {
-  max-width: 1132px; margin: 0 auto;
-  color: #fff; font-size: clamp(1.15rem, 2.4vw, 1.6rem); font-weight: 700;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
-}
-
 .open-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
 .open-grid p { color: var(--muted); }
 .export-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 22px; }
@@ -245,7 +227,6 @@ section { padding: 88px 0; }
   .card-grid { grid-template-columns: 1fr; }
   .phone-row { grid-template-columns: 1fr; gap: 48px; }
   .hero-devices .iphone { right: 0; }
-  .photo-band { min-height: 300px; }
 }
 
 @media (max-width: 560px) {
