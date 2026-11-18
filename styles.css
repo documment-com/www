@@ -80,7 +80,7 @@ p { margin: 0 0 1em; }
 .fine { font-size: 0.82rem; color: var(--muted); }
 
 /* Wordmark: docu + mm + ent, as in the app */
-.wordmark { font-weight: 500; font-size: 1.5rem; letter-spacing: 0.02em; color: var(--blue); text-decoration: none; }
+.wordmark { font-weight: 500; font-size: 1.9rem; letter-spacing: 0.02em; color: var(--blue); text-decoration: none; }
 .wordmark b { color: var(--text); font-weight: 500; }
 .wordmark.small { font-size: 1.1rem; }
 
@@ -234,7 +234,7 @@ section { padding: 88px 0; }
   .steps, .plans { grid-template-columns: 1fr; }
   .device { border-width: 5px; border-radius: 14px; }
   .device.iphone { border-width: 4px; border-radius: 26px; }
-  .wordmark { font-size: 1.25rem; }
+  .wordmark { font-size: 1.55rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
