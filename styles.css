@@ -132,7 +132,7 @@ p { margin: 0 0 1em; }
 
 /* Sections */
 section { padding: 88px 0; }
-.section-label { color: var(--blue); font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5em; }
+.section-label { color: var(--blue); font-size: 1.5rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.5em; }
 .section-title { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 800; letter-spacing: -0.01em; line-height: 1.25; margin-bottom: 0.6em; }
 .section-intro { color: var(--muted); max-width: 46em; }
 .center .section-intro { margin-left: auto; margin-right: auto; }
