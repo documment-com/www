@@ -1,4 +1,5 @@
-/* Always dark: the site does not follow the device's light/dark setting. */
+/* Dark is the default for every visitor. The light palette below is kept
+   for later; nothing sets data-theme="light", so it stays inactive. */
 :root {
   --bg: #000000;
   --bg-alt: #0d0d0f;
@@ -15,6 +16,24 @@
   --frame: #2a2a2d;
   --shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.9);
   color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f2f2f7;
+  --bg-alt: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #e9e9ef;
+  --border: #d9d9e0;
+  --text: #0b0b0d;
+  --muted: #5d5d66;
+  --blue: #2557c4;
+  --blue-soft: #dce5fa;
+  --on-blue: #ffffff;
+  --pink: #b02a74;
+  --green: #2a8a45;
+  --frame: #1a1a1c;
+  --shadow: 0 24px 60px -24px rgba(20, 30, 60, 0.35);
+  color-scheme: light;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
