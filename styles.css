@@ -64,6 +64,8 @@ p { margin: 0 0 1em; }
 /* Wordmark: docu + mm + ent, as in the app */
 .wordmark { font-weight: 500; font-size: 1.9rem; letter-spacing: 0.02em; color: var(--blue); text-decoration: none; }
 .wordmark b { color: var(--text); font-weight: 500; }
+.brand { color: var(--blue); }
+.brand b { color: var(--text); font-weight: inherit; }
 .wordmark.small { font-size: 1.1rem; }
 
 /* Buttons */
